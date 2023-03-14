@@ -1,0 +1,28 @@
+The study of abstract combinatorial structures, like graphs, and their
+associated computational problems has been central to the development
+of the theory of algorithmic complexity.  One reason for this is that
+such structures provide the right level of abstraction for both
+formulating and solving a large variety of problems appearing in
+practice.  However, algorithms efficiently solving such problems often
+implicitly, and subtly, violate this abstraction when choosing of an
+arbitrary element from a set of elements, e.g., as in the selection of
+a pivot during the Gaussian elimination algorithm for matrix rank.  In
+practice structures are represented in programs by a particular
+encoding, say, as a binary string, which contains information external
+to the abstraction.  This information can be used to efficiently
+implement an arbitrary algorithmic choice, e.g., by selecting the
+element with the lexicographically first encoding.  It is a major open
+question in descriptive complexity whether such violations of
+abstraction are necessary when efficiently solving graph problems.
+<br><br>
+In this talk I will demonstrate that a host of fundamental
+combinatorial and geometric optimization problems can be efficiently
+solved on structures without violating their abstraction.  In
+particular, I shall describe how to efficiently decide the size of a
+maximum matching in a graph without making arbitrary algorithmic
+choices, settling an open problem first posed by Blass, Gurevich, and
+Shelah.  Along the way to this result, I will show, surprisingly, that
+the same can be done for the Ellipsoid Method for linear programming.<br><br>
+
+This is joint work with Anuj Dawar and Bjarki Holm, which appeared in
+LICS 2013.
